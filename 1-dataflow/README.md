@@ -28,9 +28,6 @@ Load data from Cloud Storage into BigQuery using Dataflow
 ## 2. BigQuery
 1. On your GCP console, go to BigQuery. You can find it on More Products > Analytics > BigQuery, or simply search it at the search bar.
 2. Create dataset
-
-![Screenshot 2023-03-09 210654](https://user-images.githubusercontent.com/107783827/224049808-320a5fdc-b212-42cc-97a5-35f52c13a46c.png)
-
 3. Fill the Dataset field such as:
  - Dataset ID (example: testing_dataflow)
  - Data location. (I recommend to always use the same location for all process)
