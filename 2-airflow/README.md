@@ -9,6 +9,7 @@ Load data from data source to Big Query using Apache Airflow
 
 ### File
 1. data_ingestion_gcs_dag.py
+2. data source from www.nyc.gov/site/tlc/about/tlc-trip-record-data.page#
 
 ## Setup
 ### 1. Google Cloud Composer
