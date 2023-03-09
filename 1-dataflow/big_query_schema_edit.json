@@ -1,0 +1,22 @@
+[
+    {
+        "name": "fullname",
+        "type": "STRING"
+    },
+    {
+        "name": "phone",
+        "type": "NUMERIC"
+    },
+    {
+        "name": "hobbies",
+        "type": "STRING"
+    },
+    {
+        "name": "games",
+        "type": "STRING"
+    },
+    {
+        "name": "birthdate",
+        "type": "DATE"
+    }
+]
