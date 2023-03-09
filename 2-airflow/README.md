@@ -49,9 +49,10 @@ If the environment has been created successfully, then in GCS a bucket will appe
 
 ### 4. Apache Airflow
 #### Setup Variable
-1. Return to composer and open the previously created environment, then open the **ENVIRONMENT CONFIGURATION**. Find the **Airflow Web UI** and click the link. It will takes you to Airflow like below
-2. Make sure the DAG file that has been uploaded to the bucket appears in Airflow
-3. Go to the Admin >> Variables and add new record
+1. Return to composer and open the previously created environment, then open the **ENVIRONMENT CONFIGURATION**
+2. Find the **Airflow Web UI** and click the link. It will takes you to Airflow UI
+3. Make sure the DAG file that has been uploaded to the bucket appears in Airflow
+4. Go to the Admin >> Variables and add new record
 
 ![image](https://user-images.githubusercontent.com/107783827/224084572-51967234-eebb-4ffa-8750-687a2dd4720d.png)
 
