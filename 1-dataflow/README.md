@@ -1,5 +1,5 @@
-# Move Data from Google Cloud Storage to Bigquery using Dataflow
-Load data from data source page into Google Big Query
+# Dataflow
+Load data from Cloud Storage into BigQuery using Dataflow
 
 ## Tech
 1. Google Cloud Storage
