@@ -61,7 +61,7 @@ Here are instructions for filling in variables
 - GCS_STG_LOCATION : [your bucket for staging] >> (note: you can create new folder in the bucket)
 - GCS_TEMP_LOCATION : [your bucket for temp] >> (note: you can create new folder in the bucket)
 - MOST_SEARCH_KEYWORDS_BQ_OUTPUT_TABLE : [your bigquery table].search >> (note: same as in the DAG file) 
-PROJECT_ID : [your gcp project id]
+- PROJECT_ID : [your gcp project id]
 
 #### Monitoring
 After the variables is set, you can run the DAG by clicking on the arrow button and choose **Trigger DAGs**. You can click on the DAG name to see the process when the ingestion is running. There is also a color description to find out whether ingesting has been successful or failed.
