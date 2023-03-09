@@ -9,7 +9,7 @@ Load data from Cloud Storage into BigQuery using Dataflow
 ## File
 1. citizen.txt
 2. citizen.js
-3. BIG_QUERY_SCHEMA.JSON
+3. big_query_schema.JSON
 
 ## Setup
 ## 1. Cloud Storage
