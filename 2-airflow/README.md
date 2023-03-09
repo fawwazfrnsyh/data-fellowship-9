@@ -49,7 +49,9 @@ If the environment has been created successfully, then in GCS a bucket will appe
 
 ### 4. Apache Airflow
 #### Setup Variable
-Return to composer and open the previously created environment, then open the **ENVIRONMENT CONFIGURATION**. Find the **Airflow Web UI** and click the link. It will takes you to Airflow like below. Make sure the DAG file that has been uploaded to the bucket appears in Airflow. Go to the Admin >> Variables and add new record
+1. Return to composer and open the previously created environment, then open the **ENVIRONMENT CONFIGURATION**. Find the **Airflow Web UI** and click the link. It will takes you to Airflow like below
+2. Make sure the DAG file that has been uploaded to the bucket appears in Airflow
+3. Go to the Admin >> Variables and add new record
 
 ![image](https://user-images.githubusercontent.com/107783827/224084572-51967234-eebb-4ffa-8750-687a2dd4720d.png)
 
@@ -64,15 +66,16 @@ Here are instructions for filling in variables
 - PROJECT_ID : [your gcp project id]
 
 #### Monitoring
-After the variables is set, you can run the DAG by clicking on the arrow button and choose **Trigger DAGs**. You can click on the DAG name to see the process when the ingestion is running. There is also a color description to find out whether ingesting has been successful or failed.
+1. After the variables is set, you can run the DAG by clicking on the arrow button and choose **Trigger DAGs**.
+2. You can click on the DAG name to see the process when the ingestion is running. There is also a color description to find out whether ingesting has been successful or failed.
 
 ![image](https://user-images.githubusercontent.com/107783827/224080952-49e8d131-7c0f-4755-8e3a-3b7c2dea4b80.png)
 
 ## Check the Data
-- Open BigQuery. If the process is successful, it will be a new table and new data from the data source.
+1. Open BigQuery. If the process is successful, it will be a new table and new data from the data source.
 
 ![image](https://user-images.githubusercontent.com/107783827/224088524-825d0d6f-c604-4a9b-865b-252e1075dd77.png)
 
-- You can check the data by querying in the query editor
+2. You can check the data by querying in the query editor
 
 ![image](https://user-images.githubusercontent.com/107783827/224088904-79c78dd0-28ab-4f2d-8354-1931bdabe5a0.png)
