@@ -55,8 +55,8 @@ Load data from Cloud Storage into BigQuery using Dataflow
   - Javascript UDF name: the function to call from your JavaScript file (in this project, the function to call javascript is "transform")
   - Bigquery output table (browse your output table)
   - Cloud storage input path : open your txt file in bucket
-  - Temporary Bigquery directory (create your temp folder on bucket: format gss://(your bucket)/(folder name)/ )
-  - Temporary location (create your temp folder on bucket: format gss://(your bucket)/(folder name)/ )
+  - Temporary Bigquery directory (create your temp folder on bucket: format gss://(your bucket)/(folder name)
+  - Temporary location (create your temp folder on bucket: format gss://(your bucket)/(folder name)
    
 5. Click **RUN JOB**
 7. Check the table output in BigQuery to ensure the data has been loaded.
